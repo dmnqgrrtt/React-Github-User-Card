@@ -9,7 +9,8 @@ function UserCard (props) {
                 <h3>{props.user.name}</h3>
                 <p>Username: {props.user.login}</p>
                 <p>Hometown: {props.user.location}</p>
-                <p>Github Site: {props.user.html_url}</p>
+                <p>Github Site: <a href={props.user.html_url}>{props.user.html_url}</a></p>
+                
              </div>
         </div>
             
