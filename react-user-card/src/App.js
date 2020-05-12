@@ -35,10 +35,18 @@ class App extends React.Component {
       <div className="App">
         <header className="App-header">
           <div className='heading'>
-            <h1>Github User</h1>
+            <h1>Github User Card</h1>
           </div>         
         </header>
-        <User user={this.state.user} followers={this.state.followers} />
+        <div className='users'>
+          <User user={this.state.user} followers={this.state.followers} />
+        </div>
+        <footer className="App-footer">
+          <div className='copyright'>
+            <h4>Copyright 2020  </h4>
+          </div>         
+        </footer>
+        
         
       </div>
     );
