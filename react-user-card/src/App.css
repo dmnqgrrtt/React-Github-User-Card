@@ -1,0 +1,50 @@
+.users {
+  background: lightgrey;
+  padding: 2%;
+  border-radius: 15px;
+  border: 1px solid black;
+}
+
+.copyright {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  color: limegreen;
+  background: navy;
+  padding: 1%;
+  width: 50%;
+  margin-left: 25%;
+  border-radius: 25px;
+}
+
+h3 {
+  font-style: italic;
+  color: navy;
+}
+
+img {
+  height: 10rem;
+  border-radius: 50px;
+}
+
+.card {
+  border: 7px solid lime;
+  border-radius: 20px;
+  padding: 2%;
+  width: 15%;
+  margin: 1%;
+  background: white;
+}
+
+.followers {
+  display: flex;
+  flex-flow: row wrap;
+
+}
+
+.user-card {
+  display: flex;
+  justify-content: center;
+}
